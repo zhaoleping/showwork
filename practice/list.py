@@ -12,6 +12,9 @@ print(list)
 elm = list.pop()
 print(elm)
 print(list)
+#删除指定元素
+list.move('sama')
+print(list)
 #排序（永久），reverse = True 反向排序
 list.sort(reverse = True)
 print(list)
